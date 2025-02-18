@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="author" content="Luca Signoli Maggiotto">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="asir.css">
+
+    <script>
+         function función_apellido(){
+          var apellido =  document.getElementById("apellido").value;
+           var nombre = document.getElementById("nombre").value;
+            alert( 'Bienvenido '+ nombre + ' ' + apellido + ' ' +'te vas a graduar de ASIR')
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1><a class="a1" href="https://portal.edu.gva.es/ieselgrao/?page_id=690&lang=es" target="_blank">IES El Grao</a></h1>
+        <hr>
+    </header>
+    <main>
+<p>Nombre: <input type="text" name="Nombre" size="30" id="nombre"></p>
+<p>Apellido: <input type="text" name="apellido" size="30" id="apellido" onblur="función_apellido()"></p>
+<p>Año de nacimiento: <input type="number" min="1900"></p>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</p>
+    </main>
+    <footer>
+        <hr>
+        <h3>Web desarrollada por <span>Luca Signoli Maggiotto</span></h3>
+        <hr>
+    </footer>

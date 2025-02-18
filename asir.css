@@ -1,0 +1,30 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+header{
+    text-align: center;
+}
+a.a1{
+    color: orange;
+    text-decoration: underline purple;
+    margin-left: 25%;
+}
+main{
+    color: orange;
+}
+
+
+footer{
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+}
+
+h3{
+margin-left: 25%;
+}
+
+span{
+    color: red;
+}

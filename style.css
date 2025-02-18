@@ -1,0 +1,46 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+header{
+    text-align: center;
+}
+a.a1{
+    color: orange;
+    text-decoration: underline purple;
+}
+
+section.s1{
+    background-color: pink;
+}
+
+div.d1{
+    margin-left: 25%;
+}
+
+section.s2{
+    text-align: center;
+    background-color: grey;
+}
+
+section.s3{
+    background-color: lightblue;
+}
+
+div.d2{
+    margin-left: 65%;
+}
+
+footer{
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+a.a2{
+    color: blue;
+}
